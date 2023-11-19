@@ -5,8 +5,6 @@ const sortByDescendingFriendCount = (users) => {
   );
 };
 
-console.log("============= third task ==============");
-
 console.log(
   sortByDescendingFriendCount([
     {

@@ -4,8 +4,6 @@ const getTotalBalanceByGender = (users, gender) => {
     .reduce((total, user) => (total += user.balance), 0);
 };
 
-console.log("============= fourth task ==============");
-
 const allUsers = [
   {
     name: "Moore Hensley",
